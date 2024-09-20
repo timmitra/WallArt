@@ -58,8 +58,8 @@
 		AEEB94C82C1B8F03007583DD = {
 			isa = PBXGroup;
 			children = (
-				2A19C2342C9C7E9A005F2168 /* Packages */,
 				AEEB94D32C1B8F03007583DD /* WallArt */,
+				2A19C2342C9C7E9A005F2168 /* Packages */,
 				AEEB94D22C1B8F03007583DD /* Products */,
 			);
 			sourceTree = "<group>";
