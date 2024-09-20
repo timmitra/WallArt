@@ -16,7 +16,7 @@ struct WallArtApp: App {
         WindowGroup {
             ContentView()
                 .environment(appModel)
-        }
+        }.windowStyle(.plain)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
             ImmersiveView()

@@ -10,17 +10,21 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
-
+    
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
+            Text("Welcome to Wall Art in Vision Pro.")
+                .font(.extraLargeTitle)
+            
+//            Model3D(named: "Scene", bundle: realityKitContentBundle)
+//                .padding(.bottom, 50)
+//
+//            Text("Hello, world!")
+//
             ToggleImmersiveSpaceButton()
         }
-        .padding()
+        .padding(50)
+        .glassBackgroundEffect()
     }
 }
 
